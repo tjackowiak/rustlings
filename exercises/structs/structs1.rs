@@ -21,8 +21,8 @@ mod tests {
         // TODO: Instantiate a classic c struct!
         // let green =
 
-        assert_eq!(green.name, "green");
-        assert_eq!(green.hex, "#00FF00");
+        assert_eq!(green.name, String::from("green"));
+        assert_eq!(green.hex, String::from("#00FF00"));
     }
 
     #[test]
@@ -30,8 +30,8 @@ mod tests {
         // TODO: Instantiate a tuple struct!
         // let green =
 
-        assert_eq!(green.0, "green");
-        assert_eq!(green.1, "#00FF00");
+        assert_eq!(green.0, String::from("green"));
+        assert_eq!(green.1, String::from("#00FF00"));
     }
 
     #[test]

@@ -6,6 +6,6 @@
 fn main() {
     let x = 3;
     println!("Number {}", x);
-    x = 5;
+    x = 5; // make me mutable
     println!("Number {}", x);
 }

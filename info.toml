@@ -404,6 +404,32 @@ So the end goal is to:
    - since we're not creating a new vec in `main` anymore, we need to create
      a new vec in `fill_vec`, similarly to the way we did in `main`"""
 
+# GAME OF LIFE
+
+[[exercises]]
+name = "game_of_life1"
+path = "exercises/game_of_life/game_of_life1.rs"
+mode = "test"
+hint = """
+
+"""
+
+[[exercises]]
+name = "game_of_life2"
+path = "exercises/game_of_life/game_of_life2.rs"
+mode = "test"
+hint = """
+
+"""
+
+[[exercises]]
+name = "game_of_life3"
+path = "exercises/game_of_life/game_of_life3.rs"
+mode = "test"
+hint = """
+
+"""
+
 # ERROR HANDLING
 
 [[exercises]]

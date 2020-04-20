@@ -430,6 +430,14 @@ hint = """
 
 """
 
+[[exercises]]
+name = "game_of_life4"
+path = "exercises/game_of_life/game_of_life4.rs"
+mode = "test"
+hint = """
+
+"""
+
 # ERROR HANDLING
 
 [[exercises]]
